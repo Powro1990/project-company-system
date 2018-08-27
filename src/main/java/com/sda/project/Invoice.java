@@ -4,8 +4,8 @@ import java.time.LocalDate;
 
 public class Invoice {
     private long id;
-    private NIP sellerNip;
-    private NIP buyerNip;
+    private NIP sellerNIP;
+    private NIP buyerNIP;
     private LocalDate invoiceDate;
     private LocalDate pamentDate;
     private double gross;
@@ -21,20 +21,20 @@ public class Invoice {
         this.id = id;
     }
 
-    public NIP getSellerNip() {
-        return sellerNip;
+    public NIP getSellerNIP() {
+        return sellerNIP;
     }
 
-    public void setSellerNip(NIP sellerNip) {
-        this.sellerNip = sellerNip;
+    public void setSellerNIP(NIP sellerNIP) {
+        this.sellerNIP = sellerNIP;
     }
 
-    public NIP getBuyerNip() {
-        return buyerNip;
+    public NIP getBuyerNIP() {
+        return buyerNIP;
     }
 
-    public void setBuyerNip(NIP buyerNip) {
-        this.buyerNip = buyerNip;
+    public void setBuyerNIP(NIP buyerNIP) {
+        this.buyerNIP = buyerNIP;
     }
 
     public LocalDate getInvoiceDate() {

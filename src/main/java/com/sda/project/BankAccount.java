@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class BankAccount {
     private String title;
-    private NIP nip;
+    private NIP NIP;
     private double amount;
     private OperationType type;
     private LocalDate date;
@@ -17,12 +17,12 @@ public class BankAccount {
         this.title = title;
     }
 
-    public NIP getNip() {
-        return nip;
+    public NIP getNIP() {
+        return NIP;
     }
 
-    public void setNip(NIP nip) {
-        this.nip = nip;
+    public void setNIP(NIP NIP) {
+        this.NIP = NIP;
     }
 
     public double getAmount() {

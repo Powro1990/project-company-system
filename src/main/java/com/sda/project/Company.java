@@ -2,7 +2,7 @@ package com.sda.project;
 
 public class Company {
     private String name;
-    private NIP nip;
+    private NIP NIP;
 
     public String getName() {
         return name;
@@ -12,11 +12,11 @@ public class Company {
         this.name = name;
     }
 
-    public NIP getNip() {
-        return nip;
+    public NIP getNIP() {
+        return NIP;
     }
 
-    public void setNip(NIP nip) {
-        this.nip = nip;
+    public void setNIP(NIP NIP) {
+        this.NIP = NIP;
     }
 }
