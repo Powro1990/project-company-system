@@ -1,4 +1,4 @@
-package com.sda.project-company-system;
+package com.sda.project;
 
 import static org.junit.Assert.assertTrue;
 
