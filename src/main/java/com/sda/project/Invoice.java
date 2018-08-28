@@ -13,6 +13,18 @@ public class Invoice {
     private int vat;
     private String number;
 
+    public Invoice(long id, Nip sellerNip, Nip buyerNip, LocalDate invoiceDate, LocalDate pamentDate, double gross, double net, int vat, String number) {
+        this.id = id;
+        this.sellerNip = sellerNip;
+        this.buyerNip = buyerNip;
+        this.invoiceDate = invoiceDate;
+        this.pamentDate = pamentDate;
+        this.gross = gross;
+        this.net = net;
+        this.vat = vat;
+        this.number = number;
+    }
+
     public long getId() {
         return id;
     }

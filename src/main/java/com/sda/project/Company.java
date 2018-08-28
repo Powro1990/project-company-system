@@ -2,8 +2,17 @@ package com.sda.project;
 
 public class Company {
 
+
+    @CsvColumnName("Name")
     private String name;
+    @CsvColumnName("Nip")
     private Nip Nip;
+
+    public Company(String name, Nip nip) {
+        this.name = name;
+        Nip = nip;
+    }
+
 
     public String getName() {
         return name;

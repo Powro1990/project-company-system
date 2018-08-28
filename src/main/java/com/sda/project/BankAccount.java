@@ -3,11 +3,23 @@ package com.sda.project;
 import java.time.LocalDate;
 
 public class BankAccount {
+    @CsvColumnName("Title")
     private String title;
+    @CsvColumnName("Nip")
     private Nip Nip;
+    @CsvColumnName("Amount")
     private double amount;
     private OperationType type;
+    @CsvColumnName("Date")
     private LocalDate date;
+
+    public BankAccount(String title, Nip nip, double amount, OperationType type, LocalDate date) {
+        this.title = title;
+        Nip = nip;
+        this.amount = amount;
+        this.type = type;
+        this.date = date;
+    }
 
     public String getTitle() {
         return title;
